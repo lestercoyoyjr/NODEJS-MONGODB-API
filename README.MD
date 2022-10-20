@@ -1,0 +1,1 @@
+Remember: MONGODB_URI value is in .env file, but this can't be added publicly for obvious reasons. The .env file wasn't added to the project but it's ignored
