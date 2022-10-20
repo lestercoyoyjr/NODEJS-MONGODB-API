@@ -11,6 +11,8 @@ app.get('/', (req,res) => {
 });
 
 //mongodb connection
-mongoose.connect("")
+mongoose.connect(process.env.MONGODB_URI)
+.then(() => console.log("Connected to mongodb atlas"))
+.catch((error) => console.error(error));
 
 app.listen(port, () => console.log('server listening on port ', port))
