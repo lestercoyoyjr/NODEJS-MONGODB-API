@@ -23,3 +23,6 @@ Content-Type: application/json
     "age": 80,
     "email": "benfranklin@gmail.com"
 }
+
+###
+GET http://localhost:9000/api/users/635353aa2f00bac0b417482c HTTP/1.1
