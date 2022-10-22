@@ -7,3 +7,6 @@ Content-Type: application/json
     "age": 75,
     "email": "thomasalbaedison@gmail.com"
 }
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
