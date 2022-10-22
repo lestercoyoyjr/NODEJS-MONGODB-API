@@ -10,3 +10,6 @@ Content-Type: application/json
 
 ###
 GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/63534d3b439e6e06f43996cc HTTP/1.1
